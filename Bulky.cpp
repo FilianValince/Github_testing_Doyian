@@ -5,8 +5,8 @@ using namespace std;
 
 class BulkyItem : public InventoryManagement {
 private:
-    double volume;       // Thể tích của hàng hóa (m3)
-    string storage_zone; // Khu vực lưu trữ đặc biệt (Ví dụ: "Zone-Heavy-Rack")
+    double volume;       
+    string storage_zone; 
 
 public:
     // Constructor khởi tạo
